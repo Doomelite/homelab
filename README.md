@@ -12,6 +12,7 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 - Uptime Kuma
 - Nginx Proxy Manager
 - Tailscale
+- AdGuard Home
 
 ## Goals
 
