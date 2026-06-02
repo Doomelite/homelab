@@ -1,5 +1,37 @@
+# Environment variables
 .env
 .env.*
-data/
-letsencrypt/
+*.env
+
+# Databases
 *.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Nginx Proxy Manager runtime data
+nginx-proxy-manager/.data/
+
+# Let's Encrypt certificates
+letsencrypt/
+**/letsencrypt/
+
+# Docker runtime files
+*.pid
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Python cache (na przyszłość)
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
