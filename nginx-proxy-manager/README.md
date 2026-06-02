@@ -6,7 +6,7 @@ Reverse proxy for homelab services.
 
 ## Acces
 
-- http://<server-ip>:81
+- http://server-ip:81
 
 ## Docker Image
 
@@ -20,7 +20,7 @@ Reverse proxy for homelab services.
 
 ## Notes
 
-- Used to expose services through user-friendly hostnames.
+Used to expose services through user-friendly hostnames.
 
 ## Examples:
 
