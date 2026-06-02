@@ -2,7 +2,7 @@
 
 ## Purpose
 
-- Monitoring homelab services.
+Monitoring homelab services.
 
 ## Acces
 

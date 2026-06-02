@@ -8,7 +8,7 @@
 
 ## Acces
 
-- http://server:3000
+- http://server-ip:3000
 
 
 ## Docker Image
