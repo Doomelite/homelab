@@ -13,6 +13,8 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 - Nginx Proxy Manager
 - Tailscale
 - AdGuard Home
+- PostgreSQL
+- Adminer
 
 ## Goals
 

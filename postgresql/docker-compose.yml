@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    container_name: postgres
+
+    environment:
+      POSTGRES_DB: nextcloud
+      POSTGRES_USER: nextcloud
+      POSTGRES_PASSWORD: mocne_haslo
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+
+volumes:
+  postgres_data:
