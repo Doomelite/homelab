@@ -18,7 +18,7 @@
 - ghcr.io/gethomepage/homepage:latest
 
 
-## Persisten Data
+## Persistent Data
 
 - ./config:/app/config
 

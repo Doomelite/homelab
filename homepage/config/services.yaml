@@ -18,7 +18,15 @@
         href: http://adguard.lab/
         description: DNS management
 
+    - Adminer:
+        href: http://adminer.lab/
+        description: PostgreSQL administration
+
 - Storage:
     - FileBrowser:
         href: http://filebrowser.lab/
         description: Files management
+
+    - Nextcloud:
+        href: http://nextcloud.lab/
+        description: Personal cloud storage

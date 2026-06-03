@@ -15,6 +15,7 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 - AdGuard Home
 - PostgreSQL
 - Adminer
+- Nextcloud
 
 ## Goals
 
