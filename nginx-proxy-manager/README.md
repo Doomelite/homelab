@@ -8,6 +8,8 @@ Reverse proxy for homelab services.
 
 - http://server-ip:81
 
+- http://nginxproxymanager.lab/
+
 ## Docker Image
 
 - jc21/nginx-proxy-manager:2.15.0

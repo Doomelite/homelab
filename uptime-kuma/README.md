@@ -6,7 +6,9 @@ Monitoring homelab services.
 
 ## Acces
 
-- http://<server-ip>:3001
+- http://server-ip:3001
+
+- http://uptimekuma.lab/
 
 ## Image
 

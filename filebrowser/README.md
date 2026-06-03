@@ -1,4 +1,4 @@
-\# File Browser
+# File Browser
 
 ## Purpose
 
@@ -7,6 +7,8 @@ Web-based file management for the server.
 ## Acces
 
 http://server-ip:8080
+
+http://filebrowser.lab/
 
 ## Image
 

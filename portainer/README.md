@@ -8,6 +8,8 @@ Homelab services management.
 
 - https://server-ip:9443
 
+- https://portainer.lab/
+
 ## Image
 
 - portainer/portainer-ce

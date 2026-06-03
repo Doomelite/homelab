@@ -10,6 +10,8 @@
 
 - http://server-ip:3000
 
+- http://homepage.lab
+
 
 ## Docker Image
 

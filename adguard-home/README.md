@@ -6,7 +6,9 @@ DNS server for homelab services and ad blocking.
 
 ## Access
 
-http://server-ip:82
+- http://server-ip:82
+
+- http://adguard.lab/
 
 ## Image
 
@@ -34,14 +36,6 @@ adguard/adguardhome:latest
 
 Used for local DNS records and network-wide ad blocking.
 
-Currently running without DNS port 53 due to systemd-resolved conflict.
-
 ## Future Improvements
-
-- Replace systemd-resolved and bind AdGuard to port 53
-
-- Integrate with Tailscale DNS
-
-- Enable DNS filtering for all homelab devices
 
 - Configure HTTPS for admin panel

@@ -3,18 +3,22 @@
 
 - Infrastructure:
     - Portainer:
-        href: https://100.121.236.113:9443
+        href: https://portainer.lab/
         description: Container management
 
     - Uptime Kuma:
-        href: http://100.121.236.113:3001
+        href: http://uptimekuma.lab/
         description: Service monitoring
 
     - Nginx Proxy Manager:
-        href: http://100.121.236.113:81
+        href: http://nginxproxymanager.lab/
         description: Proxy management
+
+    - AdGuard Home:
+        href: http://adguard.lab/
+        description: DNS management
 
 - Storage:
     - FileBrowser:
-        href: http://100.121.236.113:8080
+        href: http://filebrowser.lab/
         description: Files management
