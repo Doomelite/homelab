@@ -26,17 +26,27 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 
 ## Architecture
 
-Internet / Tailscale
-        │
-        ▼
-AdGuard Home (DNS)
-        │
-        ▼
-Nginx Proxy Manager
-        │
- ┌──────┼────────┬────────┬─────────┐
- ▼      ▼        ▼        ▼         ▼
-Homepage Portainer Kuma FileBrowser Nextcloud
-                               │
-                               ▼
-                          PostgreSQL
+## Homelab Architecture
+
+```text
+                         ┌─────────────┐
+                         │  Tailscale  │
+                         └──────┬──────┘
+                                │
+                                ▼
+                         ┌─────────────┐
+                         │ AdGuard DNS │
+                         └──────┬──────┘
+                                │
+                                ▼
+                   ┌────────────────────────┐
+                   │ Nginx Proxy Manager    │
+                   └──────────┬─────────────┘
+                              │
+      ┌────────────┬──────────┼──────────┬────────────┬────────────┐
+      ▼            ▼          ▼          ▼            ▼            ▼
+ Homepage      Portainer  FileBrowser  UptimeKuma  Adminer    Nextcloud
+                                                               │
+                                                               ▼
+                                                          PostgreSQL
+```
