@@ -14,7 +14,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
 
     volumes:
-      - nextcloud_data:/var/www/html
+      - /media/domel/Gry-i-Programy/Nextcloud/html:/vat/www/html
       - /media/domel/Gry-i-Programy/Nextcloud/data:/var/www/html/data
 
     networks:
