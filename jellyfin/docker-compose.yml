@@ -6,6 +6,9 @@ services:
       - jellyfin_config:/config
       - jellyfin_cache:/cache
       - /media/domel/Gry-i-Programy/Nextcloud/data/Doomel/files:/media
+      - /media/domel/Gry-i-Programy/Anime:/anime
+      - /media/domel/Gry-i-Prgoramy/Seriale:/tv
+      - /media/domel/Gry-i-Programy/Filmy:/movies
     ports:
       - 8096:8096/tcp
     restart: unless-stopped

@@ -3,7 +3,7 @@
 
 - Infrastructure:
     - Portainer:
-        href: https://portainer.lab/
+        href: http://portainer.lab/
         description: Container management
 
     - Uptime Kuma:
@@ -30,3 +30,12 @@
     - Nextcloud:
         href: http://nextcloud.lab/
         description: Personal cloud storage
+
+- Multimedia:
+    - Jellyfin:
+        href: http://jellyfin.lab/
+        description: Personal movie library
+
+    - Audiobooshelf:
+        href: http://audiobookshelf.lab/
+        description: Personal audiobook library

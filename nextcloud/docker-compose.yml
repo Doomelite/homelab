@@ -14,15 +14,12 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
 
     volumes:
-      - /media/domel/Gry-i-Programy/Nextcloud/html:/vat/www/html
+      - /media/domel/Gry-i-Programy/Nextcloud/html:/var/www/html
       - /media/domel/Gry-i-Programy/Nextcloud/data:/var/www/html/data
+      - /media/domel/Gry-i-Programy/Audiobooki:/externals/audiobooks
 
     networks:
       - homelab
-
-
-volumes:
-  nextcloud_data:
 
 networks:
   homelab:

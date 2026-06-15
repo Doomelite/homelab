@@ -1,0 +1,16 @@
+services:
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - "83:80"
+    volumes:
+      - /media/domel/Gry-i-Programy/Audiobooki:/audiobooks
+      - audiobookshelf_config:/config
+      - audiobookshelf_metadata:/metadata
+    environment:
+      - TZ=Europe/Warsaw
+    restart: unless-stopped
+
+volumes:
+  audiobookshelf_config:
+  audiobookshelf_metadata:

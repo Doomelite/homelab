@@ -16,6 +16,8 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 - PostgreSQL
 - Adminer
 - Nextcloud
+- Jellyfin
+- Audiobookshelf
 
 ## Goals
 
@@ -29,24 +31,27 @@ Personal homelab project used for learning Linux administration, Docker and DevO
 ## Homelab Architecture
 
 ```text
-                         ┌─────────────┐
-                         │  Tailscale  │
-                         └──────┬──────┘
-                                │
-                                ▼
-                         ┌─────────────┐
-                         │ AdGuard DNS │
-                         └──────┬──────┘
-                                │
-                                ▼
-                   ┌────────────────────────┐
-                   │ Nginx Proxy Manager    │
-                   └──────────┬─────────────┘
-                              │
-      ┌────────────┬──────────┼──────────┬────────────┬────────────┐
-      ▼            ▼          ▼          ▼            ▼            ▼
- Homepage      Portainer  FileBrowser  UptimeKuma  Adminer    Nextcloud
-                                                               │
-                                                               ▼
-                                                          PostgreSQL
+
+                 Tailscale
+                     │
+                     ▼
+               AdGuard DNS
+                     │
+                     ▼
+          Nginx Proxy Manager
+                     │
+ ┌──────────┬──────────┬──────────┬──────────┬──────────┐
+ ▼          ▼          ▼          ▼          ▼          ▼
+Homepage  Portainer FileBrowser UptimeKuma Adminer  Nextcloud
+                                                        │
+                                                        ▼
+                                                   PostgreSQL
+
+
+                     Shared Media Storage
+                             │
+                 ┌───────────┴───────────┐
+                 ▼                       ▼
+             Jellyfin             Audiobookshelf
+
 ```
